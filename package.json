@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node-dev index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexandre Kelifa",
@@ -11,6 +12,7 @@
   "dependencies": {
     "axios": "^0.21.4",
     "cheerio": "^1.0.0-rc.10",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-dev": "^7.0.0"
   }
 }
